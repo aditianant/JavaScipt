@@ -21,6 +21,6 @@ console.log("Helloo Mee!!")
 // Non-primitive DataTyeps-->
 // object
 
-console.log(typeof "HelloMeee")
+console.log(typeof "Hello Meee")     //it's type is string
 console.log(typeof null)            //it's type is object
 console.log(typeof undefined)       //it's type is undefined only
