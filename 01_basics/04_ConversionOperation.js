@@ -18,4 +18,6 @@ console.log(valueInNumber)
  undefined => NaN
  null => 0
  false => 0
- true => 1 */
+ true => 1 
+ "" => false
+ "anything" => true */
