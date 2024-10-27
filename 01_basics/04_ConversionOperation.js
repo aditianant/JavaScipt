@@ -13,9 +13,9 @@ console.log(valueInNumber)
 
 // If the value is digits+letters or undefined then the answer comes as NaN
 // If the value is null or false then the answer comes as 0
-// "33" => 33
-// "33abc" => NaN
-// undefined => NaN
-// null => 0
-// false => 0
-// true => 1
+/* Examples : "33" => 33
+ "33abc" => NaN
+ undefined => NaN
+ null => 0
+ false => 0
+ true => 1 */
