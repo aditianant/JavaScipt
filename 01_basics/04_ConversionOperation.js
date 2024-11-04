@@ -1,3 +1,4 @@
+// ******************************* Conversion of datatypes ***************************************************
 let score="33"
 console.log(typeof score)
 
@@ -21,3 +22,12 @@ console.log(valueInNumber)
  true => 1 
  "" => false
  "anything" => true */
+
+
+
+ // *************************************** Operations ****************************
+ console.log ("1" + 2)          // 12
+ console.log (1 + "2")          // 12
+ console.log ("1" + 2 + 2)      // 122
+ console.log (1 + 2 + "2")      // 32
+ 
