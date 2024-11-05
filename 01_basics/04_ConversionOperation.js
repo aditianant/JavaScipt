@@ -28,5 +28,9 @@ console.log(valueInNumber)
  // *************************************** Operations ****************************
  console.log ("1" + 2)          // 12
  console.log (1 + "2")          // 12
- console.log ("1" + 2 + 2)      // 122
- console.log (1 + 2 + "2")      // 32
+ console.log ("1" + 2 + 2)      // 122  --> String at first so all in string
+ console.log (1 + 2 + "2")      // 32   --> String at last so first conversion is done then that string is attached
+//  These above commands are not preferable!!
+
+console.log (+true)     // output is 1
+console.log (+"")     // output is 0
