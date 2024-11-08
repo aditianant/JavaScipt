@@ -26,7 +26,7 @@ const newString = "    Welcome    ";
 console.log(newString);
 console.log(newString.trim()); // trims the leading and trailing spaces
 
-const url = "https://google.com/aditi%20anant";
+const url = "https://google.com/adiitii%20anant";
 console.log(url.replace("%20", "-"));
 console.log(url.includes("aditi"));
 
