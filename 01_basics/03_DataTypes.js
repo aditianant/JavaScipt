@@ -41,7 +41,7 @@ const heroes = ["Shaktiman", "Krrish", "Myself"];
 // Objects --> included in curly parenthesis
 let myObj = {
     name:"Khush",
-    age:21,
+    hobby: "Coding",
 }
 
 // Function
