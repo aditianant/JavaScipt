@@ -86,8 +86,8 @@ const course={
   instructor:"Coder"
 }
 // console.log(course.instructor) // Repeated and Lengthy Way
-const {instructor: ins}= course // Destructuring
-console.log(ins)
+const { instructor: instruct } = course; // Destructuring
+console.log(instruct);
 
 //JSON API --> how the backend data come and is treated
 /*
