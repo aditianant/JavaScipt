@@ -5,16 +5,18 @@
 
 // Named IIFE ;
 (function fun() {
-  console.log("Database Connected by IIFE");
+  console.log("Database Connected successfully by IIFE");
 })(); // Here, semicolon is important to end the first function
 
 // Unnamed IIFE ;
 // IIFE by using Arrow function
 (() => {
-  console.log("Database Connected by IIFE using Arrow function");
+  console.log("Database Connected successfully by IIFE using Arrow function");
 })();
 
 // IIFE by using Arrow function -- passing arguments and parameters
 ((name) => {
-  console.log(`Database Connected by IIFE using Arrow function by ${name}`);
+  console.log(
+    `Database Connected successfully by IIFE using Arrow function by ${name}`
+  );
 })("Aditi");
