@@ -1,7 +1,7 @@
 // *************************** This Keyword *************************
 // This keyword is used for current context
 const user = {
-  username: "Aditi",
+  username: "adiitii",
   email: "aditi@gmail.com",
   welcomeMessage: function () {
     console.log(`${this.username}, Welcome to the Website!`);
@@ -15,13 +15,13 @@ console.log(this); // Here, this comes in the context of empty object
 
 // This keyword cannot be called inside a function; only in an object
 function func() {
-  let username = "Aditi";
+  let username = "adiitii";
   console.log(this.username); // Output as undefined
 }
 func();
 // OR
 const fun = function () {
-  let username = "Aditi";
+  let username = "adiitii";
   console.log(this.username);
 };
 fun();
@@ -31,7 +31,7 @@ fun();
 //          const varName = () => {}
 //          const varName = (num1, num2) => {}
 const arrow = () => {
-  let username = "Aditi";
+  let username = "adiitii";
   console.log(this.username); // Output is undefined
   console.log(this); // Output is empty obejct, i.e., {}
 };
@@ -42,7 +42,7 @@ arrow();
 const addNumImplicitly = (num1, num2) => num1 + num2;
 console.log(addNumImplicitly(12, 18));
 
-const objectImplicitly = () => ({ username: "Aditi" });
+const objectImplicitly = () => ({ username: "adiitii" });
 console.log(objectImplicitly());
 
 // Explicit Return of Arrow Function --> use of return statement
