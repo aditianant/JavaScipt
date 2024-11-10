@@ -29,4 +29,4 @@ Phases of JS EC: -
 *********************** Call Stack ****************************
 First is always Global EC
 Then if there is nested functions --> then LIFO (Last In First Out) principle follows
-Example in Google Chrome inspect sources snippet.js
+Example in Google Chrome --> inspect --> sources --> snippet.js
