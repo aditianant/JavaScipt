@@ -38,7 +38,7 @@ const obj = {
   // Object Creation (not compulsory)
   username: "Aditi",
   id: 112233,
-  email: "aditi@gmail.com",
+  email: "aditi@google.com",
 };
 function passingObject(anyObject) {
   // Passing the Object
