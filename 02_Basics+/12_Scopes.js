@@ -24,7 +24,7 @@ function outer() {
   const name = "Aditi"; // Third
   function inner() {
     // Fifth
-    const email = "aditi@gmail.com"; // Sixth
+    const email = "aditi@google.com"; // Sixth
     console.log(name); // Seventh
   }
   // console.log(email)     // This will throw an error because it is out of inner scope
