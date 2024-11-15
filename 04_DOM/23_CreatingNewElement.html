@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM: Creating a new Element</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+</body>
+<script>
+    const div=document.createElement('div')
+    console.log(div)
+    div.className="main"        // don't write class; always use className
+    div.id=Math.round(Math.random() *10 +1)     // providing random value as its id
+    div.setAttribute("title","Generated")
+    div.style.backgroundColor="green"
+    div.style.padding="10px"    
+    div.style.borderRadius="10px"    
+    div.innerText="This is a div box by .innerText attribute generated in the Script Tag."       // This is not so optimized approach
+    const addText=document.createTextNode("This is a div box by .createTextNode generated in the Script Tag.")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)  // Attaching the div to the body to make it visible
+</script>
+</html>
