@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM (Document Object Model) </title>
+</head>
+<body>
+    <div class="bg-Black">
+        <h1 id="title" class="heading">DOM Learning <span style="display: none;">Text to check certain commands</span></h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!-- setAttribute always overwrites the previous value and works in key:value method -->
+
+<!-- title.innerText gives only the visible content; whereas -->
+<!-- title.textContent gives the hidden content also -- this is the major difference between both -->
+<!-- title.innerHTML gives whatever written as the text along with the HTML attributes -->
+
+<!-- Ways to get element is many: some is getElementById and getElementByClassName -->
+
+<!-- document.querySelector gives only the first query which is passed as parameter -->
+<!-- querySelector supports same as CSS Selectors -->
+<!-- querySelector also manipulates value of the element -->
+
+<!-- document.querySelectorAll gives all the queries which is passed as parameter and manipulates it-->
+<!-- If there is a list, then it considers as a node (similar to array) but not array; and then have to manipulate each element by taking the particular index of that node -->
+<!-- If want to change all elements of the list; use foreach loop since it is nodelist not an array (where we can use map) -->
+
+<!-- HTML Collection (when getting elements from ClassName) is different from Nodelist; so can't use foreach loop in that case -->
+<!-- To use foreach loop, change the HTML Collection into an array by using Array.from(variableName) -->
