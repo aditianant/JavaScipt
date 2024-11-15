@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Continued</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="week">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const week=document.querySelector('.week')
+    console.log(week)
+    console.log(week.children)      //.children is an attribute to find its inner attributes
+
+    //For loop can work on HTML Collection
+    for(let i=0;i<week.children.length;i++){
+        console.log(week.children[i].innerHTML)     //innerHTML gives only the values
+    }
+    week.children[1].style.color="orange"
+
+    console.log(week.firstElementChild)     //to find the first value of the array
+    console.log(week.lastElementChild)      //to find the last value of the array
+
+    const dayOne=document.querySelector('.day')
+    console.log(dayOne)
+    console.log(dayOne.parentElement)       //If want to find its paren element
+    console.log(dayOne.nextElementSibling)       //If want to find its sibling(since its a tree traversal)
+
+    // .childNodes gives all the node structure (since web forms a complex tree structure)
+    console.log("NODES: ", week.childNodes)
+    // Here, the output is 9 because linebreak is also a node, followed by div.
+</script>
+</html>
